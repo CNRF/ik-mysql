@@ -22,6 +22,7 @@
         <skip.unit.tests>true</skip.unit.tests>
         <gpg.keyname>4E899B30</gpg.keyname>
         <gpg.useagent>true</gpg.useagent>
+        <mysql.version>8.0.27</mysql.version>
     </properties>
 
     <licenses>
@@ -86,7 +87,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
+            <version>${mysql.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
